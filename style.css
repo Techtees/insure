@@ -1,0 +1,20 @@
+@import url(https://fonts.google.com/specimen/Epilogue);
+
+:root {
+    --white:#FAFAFA;
+    --grey:#696969;
+    --black:#141414;
+    --base-font: 18px;
+    --base-weight-1:500;
+    --base-weight-2:700;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--main-bg-color);
+}
