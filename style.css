@@ -43,20 +43,87 @@ body{
     display: flex;
     justify-content: space-between;
     /* border: 2px solid black; */
-    width: 450px;
+    width: 500px;
 }
 .left-menu ul li{
     display: inline;
-    margin-right: 20px;
+    margin-right: 30px;
     color: var(--dark-grey);
 }
 
 .logo{
-    margin-left: 30px;
+    margin-right: 40px;
 }
 .right-menu{
     justify-content: flex-end;
 }
+
+/* dropdown */
+ul .dropdown-menu img{
+    width: 10px;
+    display: inline-block;
+    /* margin-bottom: none; */
+}
+.menu-list{
+    display: flex;
+    position: relative;
+}
+.dropdown-list{
+    display: flex;
+    background: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px ;
+    /* width: 150px; */
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    left: -6rem;
+    top: 30px;
+}
+.dropdown-list-2{
+    /* display: flex; */
+    background: #000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px ;
+    width: 120px;
+    /* text-align: center; */
+    font-size: 18px;
+    position: absolute;
+    top: 30px;
+    padding: 20px;
+   
+}
+.dropdown-list-2 li a{
+    display: block;
+}
+.dropdown-list li{
+    padding: 10px;
+}
+.dropdown-list .list-items a img{
+    display: inline;
+}
+.dropdown-list{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.list-items{
+    display: flex;
+}
+.list-items-2{
+    display: block;
+}
+.drop-down-menu{
+    position: relative;
+}
+.dropdown-list
+
+
+
+
 
 .btn-style-1{
     padding: 10px 24px 10px 24px;
@@ -66,6 +133,7 @@ body{
     margin-left: 20px;
     background: none;
     color: var(--dark-grey);
+    transition: background ease-out 2s;
 }
 
 .btn-style-2{
@@ -75,7 +143,7 @@ body{
 }
 .main{
     display: flex;
-    padding-top:0px;
+    padding-top:40px;
     justify-content: center;
 }
 .section{
@@ -116,6 +184,7 @@ body{
     font-size: 17px;
     font-weight: var(--base-weight-1);
     cursor: pointer;
+    transition: background ease-out 0.6s;
 }
 .section .content a:hover{
     padding: 15px 30px;
@@ -125,6 +194,7 @@ body{
     color: var(--black);
     font-size: 17px;
     font-weight: var(--base-weight-1);
+    transition: background ease-out 0.6s;
 }
 .button-gr{
     margin-bottom: 20px;
@@ -152,3 +222,4 @@ img{
 .attribution{
     padding-top: 50px;
 }
+
