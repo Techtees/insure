@@ -187,6 +187,7 @@ ul .dropdown-menu img{
     border: 1px solid black;
     max-width: 50%;
     
+    
 }
 .section .content p{
     font-size: 18px;
@@ -233,6 +234,11 @@ img{
 }
 .hero-img img{
     width: 400px;
+    max-width: 500px;
+}
+
+.mobile{
+    display: none;
 }
 .client{
     display: flex;
@@ -251,6 +257,11 @@ img{
 .attribution{
     padding-top: 50px;
 }
+
+/* @media screen and (min-width: 760px) and (max-width:997px) {
+
+    
+} */
 
 @media screen and (min-width: 577px) and (max-width: 760px){
     .main{
@@ -272,6 +283,7 @@ img{
         flex-direction: column;
         width: 100%;
         max-width: 100%;
+        order: 2;
     }
     .section .content p{
         width: 100%;
@@ -285,10 +297,19 @@ img{
         font-size: 3rem;
     }
     .hero-img{
+        display: flex;
+        place-content: center;
         width: 100%;
+        order: 1;
     }
     .hero-img img{
         width: 100%;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
     }
     .client{
         justify-content: center;
@@ -322,6 +343,7 @@ img{
         flex-direction: column;
         width: 100%;
         max-width: 100%;
+        order: 2;
     }
     .section .content p{
         width: 100%;
@@ -335,10 +357,19 @@ img{
         text-align: center;
     }
     .hero-img{
+        display: flex;
         width: 100%;
+        order: 1;
+        
     }
     .hero-img img{
         width: 100%;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
     }
     .client{
         justify-content: center;
